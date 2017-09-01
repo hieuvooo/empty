@@ -116,9 +116,9 @@ html {
 
 .cursor{
 	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+	-webkit-animation: blink 0.3s infinite;
+	-moz-animation: blink 0.3s infinite;
+	animation: blink 0.3s infinite;
 	color: #050505;
 }
 @keyframes blink{
