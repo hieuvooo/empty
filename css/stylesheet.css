@@ -8,7 +8,7 @@ html {
 	cursor: default;
 	text-decoration: none;
 	text-transform: none;
-	background-image: url(../../../../Downloads/Web/downgrade/images/techpaper5.jpg);
+	background-color: #363845;
 }
 .container {
     position: fixed;
@@ -24,8 +24,8 @@ html {
     box-sizing: border-box;
 }
 .intro {
-    font-size: 45pt;
-    width: 100%;
+	font-size: 45pt;
+	width: 100%;
 }
 .intro.name {
     color: #00ABA3;
@@ -35,7 +35,7 @@ html {
 	display: none;
 	position: relative;
 	top: -6px;
-	color: #A42325;
+	color: #CBCBCB;
 }
 .links {
 	margin-top: 50px;
@@ -115,10 +115,11 @@ html {
 }
 
 .cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+	color: #050505;
 }
 @keyframes blink{
     0% { opacity:1; }
